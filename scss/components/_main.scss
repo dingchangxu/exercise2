@@ -1,0 +1,62 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+	box-sizing: border-box;
+	-moz-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	text-size-adjust: 100%;
+    font-family: sans-serif;
+    background-color: #aaa;
+}
+
+*, *:before, *:after {
+	box-sizing: inherit;
+}
+
+.h1 {
+    width: 100%;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+.btn {
+    color: $black;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+
+     &:hover,
+     &:active,
+     &:focus {
+        position: relative;
+        padding: 5.5em .5em;
+        padding-top: 0;
+        background-image: url("../img/owl-01.svg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: local; 
+        background-size: contain;
+    }
+
+    i{
+        vertical-align: middle;
+        font-size: 5em;
+    }
+
+    &:hover i {
+        display: none;
+    }
+
+}
+
+ 
+
+
